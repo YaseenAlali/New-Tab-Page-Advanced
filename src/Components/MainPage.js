@@ -2,7 +2,6 @@ import AutocompleteBox from "./AutocompleteBox"
 import DateTimeViewer from "./DateTimeViewer"
 import ImageViewer from "./Image"
 import ShortcutListItems from "./ListItems"
-import StaticPage from "./Static"
 import Terminal from "./Terminal"
 
 const MainPage = () => {
