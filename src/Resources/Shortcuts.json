@@ -1,0 +1,32 @@
+{
+    "shortcuts": [
+        {
+            "name": "Youtube",
+            "url": "https://youtube.com/"
+        },
+        {
+            "name": "Facebook",
+            "url": "https://facebook.com"
+        },
+        {
+            "name": "Whatsapp",
+            "url": "https://web.whatsapp.com/"
+        },
+        {
+            "name": "Bitbucket",
+            "url": "https://bitbucket.org/"
+        },
+        {
+            "name": "Mail",
+            "url": "https://mail.google.com/mail/u/1/"
+        },
+        {
+            "name": "Azure",
+            "url": "https://portal.azure.com/#home"
+        },
+        {
+            "name": "Linkedin",
+            "url": "https://www.linkedin.com/"
+        }
+    ]
+}

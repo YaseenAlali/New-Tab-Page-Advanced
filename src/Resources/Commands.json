@@ -1,0 +1,52 @@
+{
+    "commands": [
+        {
+            "command": "youtube",
+            "url": "https://www.youtube.com"
+        },
+        {
+            "command": "google",
+            "url": "https://www.google.com/"
+        },
+        {
+            "command": "facebook",
+            "url": "https://www.facebook.com/"
+        },
+        {
+            "command": "gmail",
+            "url": "https://mail.google.com/mail"
+        },
+        {
+            "command": "whatsapp",
+            "url": "https://web.whatsapp.com/"
+        },
+        {
+            "command": "git",
+            "url": "https://github.com/"
+        },
+        {
+            "command": "bitbucket",
+            "url": "https://bitbucket.org/"
+        },
+        {
+            "command": "linkedin",
+            "url": "https://www.linkedin.com/"
+        },
+        {
+            "command": "chatgpt",
+            "url": "https://chat.openai.com/"
+        },
+        {
+            "command": "torrent",
+            "url": "https://www.1377x.to/"
+        },
+        {
+            "command": "anime",
+            "url": "https://nyaa.si/"
+        },
+        {
+            "command": "gitme",
+            "url": "https://github.com/YaseenAlali"
+        }
+    ]
+}

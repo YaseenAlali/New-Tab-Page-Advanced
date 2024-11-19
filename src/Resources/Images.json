@@ -1,0 +1,9 @@
+{
+    "images": [
+        {"id": 1, "src": "/images/asci.gif"},
+        {"id": 2, "src": "/images/elec.gif"},
+        {"id": 3, "src": "/images/oblivion.gif"},
+        {"id": 4, "src": "/images/sitting.gif"},
+        {"id": 5, "src": "/images/techno.gif"}
+    ]
+}
