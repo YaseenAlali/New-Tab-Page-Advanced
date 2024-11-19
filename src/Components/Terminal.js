@@ -2,7 +2,7 @@ import { useContext, useEffect, useRef } from "react";
 import { CommandContext } from "../Contexts/CommandsContext";
 
 const Terminal = () => {
-  const { setCurrentCommandText, autoCompleteCommand, currentCommandText } = useContext(CommandContext);
+  const { setCurrentCommandText, autoCompleteCommand, currentCommandText, onCommandEnterPressed } = useContext(CommandContext);
   const inputRef = useRef(null);
 
   const handleTextInputChange = (e) => {
@@ -14,6 +14,9 @@ const Terminal = () => {
     if (e.key === "Tab") {
       e.preventDefault();
       autoCompleteCommand();
+    }
+    else if (e.key === "Enter") {
+      onCommandEnterPressed();
     }
   };
 
