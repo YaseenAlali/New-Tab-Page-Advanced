@@ -2,51 +2,63 @@
     "commands": [
         {
             "command": "youtube",
-            "url": "https://www.youtube.com"
+            "url": "https://www.youtube.com",
+            "canHaveArguments": true
         },
         {
             "command": "google",
-            "url": "https://www.google.com/"
+            "url": "https://www.google.com/",
+            "canHaveArguments": true
         },
         {
             "command": "facebook",
-            "url": "https://www.facebook.com/"
+            "url": "https://www.facebook.com/",
+            "canHaveArguments": false
         },
         {
             "command": "gmail",
-            "url": "https://mail.google.com/mail"
+            "url": "https://mail.google.com/mail",
+            "canHaveArguments": false
         },
         {
             "command": "whatsapp",
-            "url": "https://web.whatsapp.com/"
+            "url": "https://web.whatsapp.com/",
+            "canHaveArguments": false
         },
         {
             "command": "git",
-            "url": "https://github.com/"
+            "url": "https://github.com/",
+            "canHaveArguments": false
         },
         {
             "command": "bitbucket",
-            "url": "https://bitbucket.org/"
+            "url": "https://bitbucket.org/",
+            "canHaveArguments": false
         },
         {
             "command": "linkedin",
-            "url": "https://www.linkedin.com/"
+            "url": "https://www.linkedin.com/",
+            "canHaveArguments": false
         },
         {
             "command": "chatgpt",
-            "url": "https://chat.openai.com/"
+            "url": "https://chat.openai.com/",
+            "canHaveArguments": false
         },
         {
             "command": "torrent",
-            "url": "https://www.1377x.to/"
+            "url": "https://www.1377x.to/",
+            "canHaveArguments": true
         },
         {
             "command": "anime",
-            "url": "https://nyaa.si/"
+            "url": "https://nyaa.si/",
+            "canHaveArguments": true
         },
         {
             "command": "gitme",
-            "url": "https://github.com/YaseenAlali"
+            "url": "https://github.com/YaseenAlali",
+            "canHaveArguments": false
         }
     ]
 }

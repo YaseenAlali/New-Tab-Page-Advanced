@@ -30,12 +30,17 @@ const CommandContextProvider = ({ children }) => {
         }
     };
 
+    const onCommandListItemPressed = (command) => {
+        setCurrentCommandText(command);
+        setAutoCompleteCommandsList([]);
+    };
+
     useEffect(() => {
         suggestCommands();
     }, [currentCommandText]);
 
     return (
-        <CommandContext.Provider value={{ currentCommandText, setCurrentCommandText, AutoCompleteCommandsList, autoCompleteCommand }}>
+        <CommandContext.Provider value={{ currentCommandText, setCurrentCommandText, AutoCompleteCommandsList, autoCompleteCommand, onCommandListItemPressed }}>
             {children}
         </CommandContext.Provider>
     );
