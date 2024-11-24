@@ -1,9 +1,34 @@
 {
     "images": [
-        {"id": 1, "src": "/images/asci.gif"},
-        {"id": 2, "src": "/images/elec.gif"},
-        {"id": 3, "src": "/images/oblivion.gif"},
-        {"id": 4, "src": "/images/sitting.gif"},
-        {"id": 5, "src": "/images/techno.gif"}
+        {
+            "id": 1,
+            "src": "/images/asci.gif",
+            "main": "#092900",
+            "secondary": "#030303"
+        },
+        {
+            "id": 2,
+            "src": "/images/elec.gif",
+            "main": "#45060c",
+            "secondary": "#030303"
+        },
+        {
+            "id": 3,
+            "src": "/images/oblivion.gif",
+            "main": "#8f8078 ",
+            "secondary": "#37382f"
+        },
+        {
+            "id": 4,
+            "src": "/images/sitting.gif",
+            "main": "#273f66",
+            "secondary": "#2c2f33"
+        },
+        {
+            "id": 5,
+            "src": "/images/techno.gif",
+            "main": "#000000", "secondary": "#176e30" 
+
+        }
     ]
 }
