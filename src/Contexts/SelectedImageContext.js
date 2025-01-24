@@ -1,10 +1,10 @@
-import { GetRandomImage } from "../Util/Utilities";
+import { InitStyle } from "../Util/Utilities";
 
 const { createContext, useState, useEffect } = require("react");
 
 const SelectedImageContext = createContext();
 const SelectedImageProvider = ({ children }) => {
-    const [SelectedImage, setSelectedImage] = useState(GetRandomImage());
+    const [SelectedImage, setSelectedImage] = useState(InitStyle());
     useEffect(() => {
         document.documentElement.style.backgroundColor = SelectedImage.main;
     }, [SelectedImage])

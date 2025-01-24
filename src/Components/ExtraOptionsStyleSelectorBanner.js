@@ -1,10 +1,18 @@
 import { useContext } from "react";
 import { SelectedImageContext } from "../Contexts/SelectedImageContext";
+import { GetRandomImage } from "../Util/Utilities";
 
 const ExtraOptionsStyleSelectorBanner = ({ images, position, setPosition, bannerRef, handleDragStart, handleDrag, setShowBanner }) => {
     const { SelectedImage, setSelectedImage } = useContext(SelectedImageContext);
     const handleImageSelection = (image) => {
         setSelectedImage(image);
+        localStorage.setItem('selectedImageId', image.id);
+    }
+
+    const handleRandomizeImageSelection = () => {
+        const image = GetRandomImage();
+        setSelectedImage(image);
+        localStorage.removeItem('selectedImageId');
     }
     return (
         <div
@@ -65,6 +73,7 @@ const ExtraOptionsStyleSelectorBanner = ({ images, position, setPosition, banner
                     </div>
                 ))}
             </div>
+            <div style={{ display: 'flex', justifyContent: 'space-around', flexDirection: 'row' }}>
             <button
                 onClick={() => setShowBanner(false)}
                 style={{
@@ -82,6 +91,24 @@ const ExtraOptionsStyleSelectorBanner = ({ images, position, setPosition, banner
             >
                 Close
             </button>
+            <button
+                onClick={handleRandomizeImageSelection}
+                style={{
+                    marginTop: '20px',
+                    padding: '10px 20px',
+                    backgroundColor: 'green',
+                    color: 'white',
+                    border: 'none',
+                    borderRadius: '5px',
+                    cursor: 'pointer',
+                    display: 'block',
+                    marginLeft: 'auto',
+                    marginRight: 'auto',
+                }}
+            >
+                Randomize
+            </button>
+            </div>
         </div>
     )
 }
