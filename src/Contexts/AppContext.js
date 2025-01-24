@@ -2,6 +2,7 @@ import { createContext } from "react";
 import { SelectedImageProvider } from "./SelectedImageContext";
 import MainPage from "../Components/MainPage";
 import { CommandContextProvider } from "./CommandsContext";
+import { ExtraOptionsProvider } from "./ExtraOptionsContext";
 
 const AppContext = createContext();
 const AppProvider = ({ children }) => {
@@ -9,7 +10,9 @@ const AppProvider = ({ children }) => {
         <AppContext.Provider>
             <SelectedImageProvider>
                 <CommandContextProvider>
-                    <MainPage></MainPage>
+                    <ExtraOptionsProvider>
+                      <MainPage></MainPage>
+                    </ExtraOptionsProvider>
                 </CommandContextProvider>
             </SelectedImageProvider>
         </AppContext.Provider>

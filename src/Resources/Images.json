@@ -4,31 +4,36 @@
             "id": 1,
             "src": "/images/asci.gif",
             "main": "#092900",
-            "secondary": "#030303"
+            "secondary": "#030303",
+            "alias" : "Asci Art"
         },
         {
             "id": 2,
             "src": "/images/elec.gif",
             "main": "#45060c",
-            "secondary": "#030303"
+            "secondary": "#030303",
+            "alias" : "Electro"
         },
         {
             "id": 3,
             "src": "/images/oblivion.gif",
             "main": "#8f8078 ",
-            "secondary": "#37382f"
+            "secondary": "#37382f",
+            "alias" : "Oblivion Comfy House View"
         },
         {
             "id": 4,
             "src": "/images/sitting.gif",
             "main": "#273f66",
-            "secondary": "#2c2f33"
+            "secondary": "#2c2f33",
+            "alias" : "Sitting on Desktop"
         },
         {
             "id": 5,
             "src": "/images/techno.gif",
-            "main": "#000000", "secondary": "#176e30" 
-
+            "main": "#000000",
+            "secondary": "#176e30",
+            "alias" : "Techno Terminal"
         }
     ]
 }

@@ -5,13 +5,15 @@ import ImageViewer from "./Image"
 import ShortcutListItems from "./ListItems"
 import Terminal from "./Terminal"
 import { SelectedImageContext } from "../Contexts/SelectedImageContext"
+import { ExtraOptions } from "./ExtraOptions"
 
 const MainPage = () => {
     const { SelectedImage } = useContext(SelectedImageContext);
 
     return (
-        <div className="MainPageContainer">
+        <div>
             <div id="body" style={{ backgroundColor: SelectedImage.main }}>
+                <ExtraOptions></ExtraOptions>
                 <DateTimeViewer></DateTimeViewer>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                     <Terminal></Terminal>
@@ -23,7 +25,7 @@ const MainPage = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default MainPage 
