@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 200px;
+      height: 120px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+      transition: background-color 0.3s;
+    }
+    button {
+      margin: 5px;
+      padding: 10px 20px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    #status {
+      margin-top: 5px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <button id="audioBtn">Audio</button>
+  <button id="videoBtn">Video</button>
+  <div id="status"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
